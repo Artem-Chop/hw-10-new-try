@@ -1,23 +1,25 @@
 {
-  "name": "parcel-project-template",
+  "name": "hw-10-new-try",
   "version": "2.0.0",
   "description": "",
-  "homepage": "https://goitacademy.github.io/parcel-project-template",
+  "homepage": "https://Artem-Chop.github.io/hw-10-new-try",
   "scripts": {
     "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /parcel-project-template/"
+    "build": "parcel build src/*.html --public-url /hw-10-new-try/"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/goitacademy/parcel-project-template.git"
+    "url": "git+https://github.com/Artem-Chop/hw-10-new-try"
   },
   "keywords": [],
-  "author": "Alexander Repeta <alexander.repeta@gmail.com>",
+  "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/goitacademy/parcel-project-template/issues"
+    "url": "https://github.com/Artem-Chop/hw-10-new-try/issues"
   },
   "dependencies": {
+    "handlebars": "^4.7.7",
+    "handlebars-loader": "^1.7.3",
     "modern-normalize": "^1.1.0"
   },
   "devDependencies": {
