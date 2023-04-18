@@ -2,6 +2,7 @@
   "name": "hw-10-new-try",
   "version": "2.0.0",
   "description": "",
+  "source": "./src/index.html",
   "homepage": "https://Artem-Chop.github.io/hw-10-new-try",
   "scripts": {
     "start": "parcel src/*.html",
@@ -20,7 +21,10 @@
   "dependencies": {
     "handlebars": "^4.7.7",
     "handlebars-loader": "^1.7.3",
-    "modern-normalize": "^1.1.0"
+    "lodash.debounce": "^4.0.8",
+    "modern-normalize": "^1.1.0",
+    "notiflix": "^3.2.6",
+    "parcel-transformer-hbs": "^1.0.3"
   },
   "devDependencies": {
     "@parcel/transformer-sass": "^2.6.0",
