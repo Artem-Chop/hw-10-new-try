@@ -18,3 +18,34 @@ body {
   max-width: 320px;
   margin-bottom: 16px;
 }
+.country-name {
+  margin: 10px 0;
+  display: flex;
+  text-align: center;
+  font-size: 40px;
+  /* align-items: center; */
+}
+.country-list {
+  padding: 0;
+  margin: -16px 0;
+  list-style-type: none;
+}
+.list-line {
+  display: flex;
+  /* flex-direction: row-reverse; */
+
+  margin: 0 auto;
+}
+.flag img {
+  width: 50px;
+  padding: 0;
+  margin: 0;
+  /* vertical-align: middle; */
+}
+.list-flag img {
+  width: 20px;
+}
+p {
+  margin: 10px 0;
+  padding: 0;
+}
